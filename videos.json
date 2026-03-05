@@ -1,0 +1,35 @@
+[
+  {
+    "id": "vid-001",
+    "title": "Nike - The Future of Sport",
+    "youtubeId": "dQw4w9WgXcQ",
+    "category": "Publicité",
+    "client": "Nike",
+    "tags": ["ads", "sport", "cinematic"],
+    "date": "2026-01-15",
+    "featured": true,
+    "description": "Une publicité dynamique présentant les dernières innovations en matière de vêtements de sport."
+  },
+  {
+    "id": "vid-002",
+    "title": "Journal de voyage : Islande",
+    "youtubeId": "jNQXAC9IVRw",
+    "category": "Vlog",
+    "client": "Projet Personnel",
+    "tags": ["voyage", "nature", "paysage"],
+    "date": "2025-11-20",
+    "featured": false,
+    "description": "Un voyage cinématographique à travers les paysages époustouflants de l'Islande."
+  },
+  {
+    "id": "vid-003",
+    "title": "Review Tech : Caméra Pro 2026",
+    "youtubeId": "ScMzIvxBSi4",
+    "category": "Tech",
+    "client": "TechWorld",
+    "tags": ["tech", "review", "camera"],
+    "date": "2026-02-10",
+    "featured": true,
+    "description": "Test approfondi de la caméra la plus attendue de l'année."
+  }
+]

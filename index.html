@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vidéo | Monteur Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fallback JSON if fetch fails -->
+    <script id="videos-fallback" type="application/json">
+    [
+      {
+        "id": "vid-001",
+        "title": "Nike - The Future of Sport",
+        "youtubeId": "dQw4w9WgXcQ",
+        "category": "Publicité",
+        "client": "Nike",
+        "tags": ["ads", "sport", "cinematic"],
+        "date": "2026-01-15",
+        "featured": true,
+        "description": "Une publicité dynamique présentant les dernières innovations en matière de vêtements de sport."
+      },
+      {
+        "id": "vid-002",
+        "title": "Journal de voyage : Islande",
+        "youtubeId": "jNQXAC9IVRw",
+        "category": "Vlog",
+        "client": "Projet Personnel",
+        "tags": ["voyage", "nature", "paysage"],
+        "date": "2025-11-20",
+        "featured": false,
+        "description": "Un voyage cinématographique à travers les paysages époustouflants de l'Islande."
+      },
+      {
+        "id": "vid-003",
+        "title": "Review Tech : Caméra Pro 2026",
+        "youtubeId": "ScMzIvxBSi4",
+        "category": "Tech",
+        "client": "TechWorld",
+        "tags": ["tech", "review", "camera"],
+        "date": "2026-02-10",
+        "featured": true,
+        "description": "Test approfondi de la caméra la plus attendue de l'année."
+      }
+    ]
+    </script>
+</head>
+<body class="dark-theme">
+    <header class="topbar">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><path d="m19 19-3.5-3.5"/></svg>
+            <span>GERTINO / STUDIO</span>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Rechercher une vidéo...">
+            <button id="search-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            </button>
+        </div>
+        <div class="top-actions">
+            <a href="/admin/" class="admin-link">Code clients</a>
+        </div>
+    </header>
+
+    <main class="layout">
+        <aside class="sidebar">
+            <nav>
+                <button class="nav-item active" data-filter="all">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                    <span>Toutes</span>
+                </button>
+                <button class="nav-item" data-filter="featured">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <span>Best of</span>
+                </button>
+                <hr>
+                <div class="sidebar-section">
+                    <h3>Catégories</h3>
+                    <div id="categories-list"></div>
+                </div>
+                <hr>
+                <div class="sidebar-section">
+                    <h3>Tags</h3>
+                    <div id="tags-chips" class="chips-container"></div>
+                </div>
+            </nav>
+        </aside>
+
+        <section class="content">
+            <div class="filters-bar">
+                <div class="sort-container">
+                    <label for="sort-select">Trier par :</label>
+                    <select id="sort-select">
+                        <option value="newest">Plus récent</option>
+                        <option value="oldest">Plus ancien</option>
+                        <option value="title-asc">Titre A-Z</option>
+                        <option value="title-desc">Titre Z-A</option>
+                    </select>
+                </div>
+                <div id="active-filters" class="active-filters"></div>
+            </div>
+
+            <div id="video-grid" class="video-grid">
+                <!-- Vidéos injectées ici -->
+            </div>
+
+            <div id="empty-state" class="empty-state hidden">
+                <p>Aucun résultat ne correspond à votre recherche.</p>
+                <button id="reset-filters">Réinitialiser les filtres</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Player -->
+    <div id="video-modal" class="modal hidden" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Fermer">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+            </button>
+            <div class="video-container">
+                <iframe id="youtube-player" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="video-details">
+                <h2 id="modal-title">Titre de la vidéo</h2>
+                <div class="video-meta">
+                    <span id="modal-client">Client</span> • 
+                    <span id="modal-category">Catégorie</span> • 
+                    <span id="modal-date">Date</span>
+                </div>
+                <div id="modal-tags" class="chips-container"></div>
+                <p id="modal-description">Description de la vidéo...</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

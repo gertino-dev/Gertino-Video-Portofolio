@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Portfolio Vidéo</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body class="dark-theme">
+    <div id="login-overlay" class="login-overlay">
+        <div class="login-card">
+            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="login-icon"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <h2>Accès Restreint</h2>
+            <p>Veuillez entrer le mot de passe pour continuer.</p>
+            <form id="login-form">
+                <input type="password" id="password-input" placeholder="Mot de passe" required autofocus>
+                <button type="submit" class="btn btn-primary">Se connecter</button>
+            </form>
+            <p id="login-error" class="error-msg hidden">Mot de passe incorrect.</p>
+            <a href="/" class="back-link">← Retour au site</a>
+        </div>
+    </div>
+
+    <header class="admin-header hidden">
+        <div class="logo">
+            <a href="/">← Retour</a>
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><path d="m19 19-3.5-3.5"/></svg>
+            <span>GERTINO / ADMIN</span>
+        </div>
+        <div class="header-actions">
+            <button id="logout-btn" class="btn btn-secondary">Déconnexion</button>
+            <button id="export-btn" class="btn btn-primary">Exporter videos.json</button>
+            <button id="clear-btn" class="btn btn-danger">Vider tout</button>
+        </div>
+    </header>
+
+    <main class="admin-layout hidden">
+        <section class="admin-form-section">
+            <h2 id="form-title">Ajouter une vidéo</h2>
+            <form id="video-form">
+                <input type="hidden" id="video-id">
+                
+                <div class="form-group">
+                    <label for="title">Titre</label>
+                    <input type="text" id="title" required placeholder="Ex: Nike Commercial">
+                </div>
+
+                <div class="form-group">
+                    <label for="youtubeId">Lien ou ID YouTube</label>
+                    <input type="text" id="youtubeId" required placeholder="Ex: https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <small>Vous pouvez coller l'URL complète ou juste l'ID (11 caractères).</small>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="category">Catégorie</label>
+                        <input type="text" id="category" required placeholder="Ex: Publicité">
+                    </div>
+                    <div class="form-group">
+                        <label for="client">Client</label>
+                        <input type="text" id="client" required placeholder="Ex: Nike">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tags">Tags (séparés par des virgules)</label>
+                    <input type="text" id="tags" placeholder="Ex: ads, sport, cinematic">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" id="featured"> Mise en avant (Best of)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" rows="3" placeholder="Courte description du projet..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-success">Enregistrer</button>
+                    <button type="button" id="cancel-btn" class="btn btn-secondary hidden">Annuler</button>
+                </div>
+            </form>
+
+            <hr>
+
+            <div class="import-section">
+                <h3>Importation</h3>
+                <div class="import-buttons">
+                    <button id="import-fetch-btn" class="btn btn-outline">Importer depuis videos.json</button>
+                    <label class="btn btn-outline">
+                        Importer un fichier JSON
+                        <input type="file" id="import-file" accept=".json" hidden>
+                    </label>
+                </div>
+                <p id="import-status" class="status-msg"></p>
+            </div>
+        </section>
+
+        <section class="admin-list-section">
+            <h2>Liste des vidéos (<span id="video-count">0</span>)</h2>
+            <div id="admin-video-list" class="admin-video-list">
+                <!-- Liste injectée ici -->
+            </div>
+        </section>
+    </main>
+
+    <div id="toast" class="toast hidden">Message ici</div>
+
+    <script type="module" src="admin.js"></script>
+</body>
+</html>
