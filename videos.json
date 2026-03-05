@@ -1,35 +1,181 @@
 [
   {
-    "id": "vid-001",
-    "title": "Nike - The Future of Sport",
-    "youtubeId": "dQw4w9WgXcQ",
-    "category": "Publicité",
-    "client": "Nike",
-    "tags": ["ads", "sport", "cinematic"],
-    "date": "2026-01-15",
-    "featured": true,
-    "description": "Une publicité dynamique présentant les dernières innovations en matière de vêtements de sport."
-  },
-  {
-    "id": "vid-002",
-    "title": "Journal de voyage : Islande",
-    "youtubeId": "jNQXAC9IVRw",
-    "category": "Vlog",
-    "client": "Projet Personnel",
-    "tags": ["voyage", "nature", "paysage"],
-    "date": "2025-11-20",
+    "id": "vid-1772714608420",
+    "title": "Villa Nova",
+    "youtubeId": "7CA5T_nZlKs",
+    "category": "Annimation 3d",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "perso",
+      "3D",
+      "futuriste",
+      "moderne"
+    ],
+    "date": "2026-01-05",
     "featured": false,
-    "description": "Un voyage cinématographique à travers les paysages époustouflants de l'Islande."
+    "description": "De la conception 3D à l'animation. L'illustration parfaite de ce que le client voudrait afficher. Petite anecdote: Villa n'existe pas encore à l'heur ou l'on parle mais ce n'est juste que l'illustration que le fondateur voudrai avoir sur le portofolio 3D de l'entreprise."
   },
   {
-    "id": "vid-003",
-    "title": "Review Tech : Caméra Pro 2026",
-    "youtubeId": "ScMzIvxBSi4",
-    "category": "Tech",
-    "client": "TechWorld",
-    "tags": ["tech", "review", "camera"],
-    "date": "2026-02-10",
+    "id": "vid-1772713740436",
+    "title": "NUKLEAR OFFICE",
+    "youtubeId": "lH7O7qjXaoo",
+    "category": "Annimation 3d",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D",
+      "futuriste",
+      "moderne"
+    ],
+    "date": "2026-01-05",
     "featured": true,
-    "description": "Test approfondi de la caméra la plus attendue de l'année."
+    "description": "De la conception 3D à l'animation. L'illustration parfaite de ce que le client voudrait afficher. Petite anecdote: le Nuklear Office n'existe pas encore à l'heur ou l'on parle mais ce n'est juste que l'illustration que le fondateur voudrai avoir sur le future bureau."
+  },
+  {
+    "id": "vid-1772713147334",
+    "title": "SONAGED",
+    "youtubeId": "W3PBvTpb8e4",
+    "category": "Présentation de Projet",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-10-01",
+    "featured": false,
+    "description": "Dans un entreprise de développement web, L'entreprise a décidé de mettre une nouvelle façon de travaillé. Faire comme cadeau au client ce genre de vidéo de présentation. Claire, attractive, professionnel. Ce genre d'approche a été une total réussite qu'on m'as fait faire plusieurs de ce genre. à voir dans ce portfolio."
+  },
+  {
+    "id": "vid-1772712697341",
+    "title": "Dataroom",
+    "youtubeId": "Pyp3VUPd5lU",
+    "category": "Présentation de Projet",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D",
+      "design",
+      "web"
+    ],
+    "date": "2025-10-01",
+    "featured": false,
+    "description": "Dans un entreprise de développement web, L'entreprise a décidé de mettre une nouvelle façon de travaillé. Faire comme cadeau au client ce genre de vidéo de présentation. Claire, attractive, professionnel. Ce genre d'approche a été une total réussite qu'on m'as fait faire plusieurs de ce genre. à voir dans ce portfolio."
+  },
+  {
+    "id": "vid-1772712264677",
+    "title": "BUILDZI",
+    "youtubeId": "bzpW5-O4Qhw",
+    "category": "Présentation de Projet",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D",
+      "design",
+      "web"
+    ],
+    "date": "2025-10-01",
+    "featured": true,
+    "description": "Dans un entreprise de développement web, L'entreprise a décidé de mettre une nouvelle façon de travaillé. Faire comme cadeau au client ce genre de vidéo de présentation. Claire, attractive, professionnel. Ce genre d'approche a été une total réussite qu'on m'as fait faire plusieurs de ce genre. à voir dans ce portfolio."
+  },
+  {
+    "id": "vid-1772711439829",
+    "title": "My Internal Control Assesment",
+    "youtubeId": "5HDXS1wNRkA",
+    "category": "Présentation de Projet",
+    "client": "Forvis Mazars",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-09-01",
+    "featured": false,
+    "description": "J'ai réalisé plusieurs de ce genre de vidéo suite à la satisfaction du clients. Vous pouvez les voir dans ce portfolio"
+  },
+  {
+    "id": "vid-1772710889653",
+    "title": "My General Ledger Analytics ",
+    "youtubeId": "TCPrE9fyKR0",
+    "category": "Présentation de Projet",
+    "client": "Forvis Mazars",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-09-01",
+    "featured": false,
+    "description": "J'ai réalisé plusieurs de ce genre de vidéo suite à la satisfaction du clients. Vous pouvez les voir dans ce portfolio"
+  },
+  {
+    "id": "vid-1772709755093",
+    "title": "Long Term Contract Analytics",
+    "youtubeId": "itTjRDs99FI",
+    "category": "Présentation de Projet",
+    "client": "Forvis Mazars",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-09-01",
+    "featured": false,
+    "description": "J'ai réalisé plusieurs de ce genre de vidéo suite à la satisfaction du clients. Vous pouvez les voir dans ce portfolio"
+  },
+  {
+    "id": "vid-1772709457597",
+    "title": "HR analytics",
+    "youtubeId": "63O_A1xp8VM",
+    "category": "Présentation de Projet",
+    "client": "Forvis Mazars",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-09-01",
+    "featured": false,
+    "description": "J'ai réalisé plusieurs de ce genre de vidéo suite à la satisfaction du clients. Vous pouvez les voir dans ce portfolio"
+  },
+  {
+    "id": "vid-1772708829310",
+    "title": "DIGITAL AUDIT WORPLACE",
+    "youtubeId": "_opSLVia-uw",
+    "category": "Présentation de Projet",
+    "client": "Forvis Mazars",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "3D"
+    ],
+    "date": "2025-09-01",
+    "featured": true,
+    "description": "J'ai réalisé plusieurs de ce genre de vidéo suite à la satisfaction du clients. Vous pouvez les voir dans ce portfolio"
   }
 ]
