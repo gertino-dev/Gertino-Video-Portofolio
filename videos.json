@@ -1,5 +1,118 @@
 [
   {
+    "id": "vid-1774255248438",
+    "title": "Top vente beauté",
+    "youtubeId": "qI8kvEMJxl4",
+    "category": "Publicité",
+    "client": "Laparaducoin + MOKO",
+    "tags": [
+      "publicité",
+      "short",
+      "Réseau sociaux",
+      "instagram"
+    ],
+    "date": "2026-03-18",
+    "featured": false,
+    "description": "Montage d'une publicité pour Laparaducoin.fr .\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774255075374",
+    "title": "Sac à langer pour maman",
+    "youtubeId": "wBeVSiT5SZU",
+    "category": "Publicité",
+    "client": "Laparaducoin + MOKO",
+    "tags": [
+      "publicité",
+      "short",
+      "Réseau sociaux"
+    ],
+    "date": "2026-03-18",
+    "featured": false,
+    "description": "Montage d'une publicité pour Laparaducoin.fr .\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774254502014",
+    "title": "Pourquoi venir chez Volfoni bourg-la-reine",
+    "youtubeId": "FmAIoJKDe80",
+    "category": "Publicité",
+    "client": "Volfoni + MOKO",
+    "tags": [
+      "publicité",
+      "short",
+      "Réseau sociaux",
+      "Instagram"
+    ],
+    "date": "2026-03-17",
+    "featured": false,
+    "description": "Montage d'une publicité pour Volfoni Bourg la reine.\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774254025455",
+    "title": "Localisation de Volfoni Bourg la reine",
+    "youtubeId": "WDT5HA_5yGA",
+    "category": "Publicité",
+    "client": "Volfoni + MOKO",
+    "tags": [
+      "Publicité",
+      "Short",
+      "Réseaux sociaux",
+      "Instagram",
+      "tiktok"
+    ],
+    "date": "2026-03-18",
+    "featured": false,
+    "description": "Montage d'une publicité pour Volfoni Bourg la reine.\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774253726558",
+    "title": "Happy Hour",
+    "youtubeId": "dAWWItDlrM8",
+    "category": "Publicité",
+    "client": "Volfoni + MOKO",
+    "tags": [
+      "publicité",
+      "short",
+      "réseaux sociaux"
+    ],
+    "date": "2026-03-17",
+    "featured": false,
+    "description": "Montage d'une publicité pour Volfoni Bourg la reine.\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774253478774",
+    "title": "Atmosphère de Vofoni",
+    "youtubeId": "beIgBj-Phbg",
+    "category": "Publicité",
+    "client": "Volfoni + MOKO ",
+    "tags": [
+      "publicité",
+      "Short",
+      "Réseaux Sociaux",
+      "Instagram"
+    ],
+    "date": "2026-03-17",
+    "featured": true,
+    "description": "Montage d'une publicité pour Volfoni Bourg la reine.\nMOKO est une entreprise de multimédia en partenarial avec les plus grand département célèbre en France. J'ai eu la chance d'être leur monteur pour promouvoir les réseaux de ces grande entreprise"
+  },
+  {
+    "id": "vid-1774252988735",
+    "title": "STARTER PACK",
+    "youtubeId": "ErQFtdyLXho",
+    "category": "Publicité",
+    "client": "NUKLEAR",
+    "tags": [
+      "publicité",
+      "projet",
+      "entreprise",
+      "professionnel",
+      "ia",
+      "short"
+    ],
+    "date": "2026-02-18",
+    "featured": true,
+    "description": "Courte vidéo pour les réseaux de NUKLEAR pour promouvoir les offres SEO de l'entreprise. "
+  },
+  {
     "id": "vid-1773150374635",
     "title": "MAILPILOT",
     "youtubeId": "33sU_9z1jng",
