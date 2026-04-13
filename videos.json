@@ -1,5 +1,39 @@
 [
   {
+    "id": "vid-1776089821525",
+    "title": "Range",
+    "youtubeId": "9r4afDIZhLM",
+    "category": "Short",
+    "client": "Captain Trading",
+    "tags": [
+      "short",
+      "influenceur",
+      "tiktok",
+      "youtube",
+      "instagram"
+    ],
+    "date": "2026-04-10",
+    "featured": true,
+    "description": "L'un de mes clients fidèle chez nuklear. \nCaptain Trading est l'un des tradeur les plus influençable et j'ai fait partie de leur merveilleuse equipe chez Nuklear en tant que monteur.\nCe video n'est que l'un que j'ai realisé, vous pouviez voir les autres dans ce portfolio"
+  },
+  {
+    "id": "vid-1776089725270",
+    "title": "Order flow",
+    "youtubeId": "tsAFkjiwPVk",
+    "category": "Short",
+    "client": "Captain Trading",
+    "tags": [
+      "short",
+      "influenceur",
+      "tiktok",
+      "youtube",
+      "instagram"
+    ],
+    "date": "2026-04-13",
+    "featured": false,
+    "description": "L'un de mes clients fidèle chez nuklear. \nCaptain Trading est l'un des tradeur les plus influençable et j'ai fait partie de leur merveilleuse equipe chez Nuklear en tant que monteur.\nCe video n'est que l'un que j'ai realisé, vous pouviez voir les autres dans ce portfolio"
+  },
+  {
     "id": "vid-1774365770118",
     "title": "Short demo exel",
     "youtubeId": "ql1xSZSB1yQ",
@@ -327,7 +361,7 @@
       "instagram"
     ],
     "date": "2026-01-19",
-    "featured": true,
+    "featured": false,
     "description": "L'un de mes clients fidèle chez nuklear. \nCaptain Trading est l'un des tradeur les plus influençable et j'ai fait partie de leur merveilleuse equipe chez Nuklear en tant que monteur.\nCe video n'est que l'un que j'ai realisé, vous pouviez voir les autres dans ce portfolio"
   },
   {
